@@ -1,4 +1,4 @@
-LESS Mixins
+SASS and LESS Mixins
 ===========
 
 Preset mixins to help speed up web development. Provides **cross-browser compatibility** with things like:
@@ -18,6 +18,8 @@ These will automatically create browser-specific rules to accommodate multiple b
 	border-radius			: 4px;
 	-moz-border-radius		: 4px;
 	-webkit-border-radius	: 4px;
+
+* These instructions are for the LESS version. The SASS syntax is a little different, but will have the same results. Check out the [SASS Website](http://sass-lang.com/) for their syntax.
 
 Requirements
 ------------

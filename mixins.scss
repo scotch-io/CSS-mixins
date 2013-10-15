@@ -57,7 +57,7 @@
 
 @mixin gradient-horizontal ($firstColor: #FFF, $secondColor: #DDD) {
 	background	: $firstColor; /* Fallback solid color for old browsers */
-	background	: linear-gradient(top right, $firstColor 0%, $secondColor 100%); /* W3C */
+	background	: linear-gradient(to right, $firstColor 0%, $secondColor 100%); /* W3C */
 	background	: -moz-linear-gradient(left,  $firstColor 0%, $secondColor 100%); /* FF 3.6+ */
 	background	: -ms-linear-gradient(left, $firstColor 0%, $secondColor 100%); /* IE 10+ */
 	background	: -o-linear-gradient(left, $firstColor 0%, $secondColor 100%); /* Opera 11.10+ */
